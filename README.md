@@ -104,5 +104,19 @@ netrum
 | `netrum-mining-log`     | View mining logs             |
 | `netrum-claim`          | Claim rewards                |
 
+✅ Conclusion / Quick Troubleshooting Guide
 
+Update code: git pull → npm install → restart node.
+
+Sync: wait for successful netrum-sync-log.
+
+Wallet: register wallet before mining.
+
+Gas/ETH: have ETH in reserve for fee (~5–10$).
+
+Mining: start only after successful sync and registration.
+
+Timers: keep intervals between attempts (netrum-claim every 24 hours).
+
+API errors: sometimes server is unavailable, need to wait and try later.
 
